@@ -25,7 +25,7 @@ function App() {
         </ul>
       </nav>
       <Switch>
-        <Route exact path="/" component={Content} />
+        <Route component={Content} />
         <Route path="/body" component={Body} />
         <Route path="/footer" component={Footer} />
         <Route path="/head" component={Head} />
